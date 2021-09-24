@@ -29,6 +29,7 @@
         android:layout_marginTop="37dp"
         android:padding="10dp"
         android:text="Nama masakan"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,6 +50,7 @@
         android:layout_marginStart="156dp"
         android:padding="10dp"
         android:text="Rp. 10.000"
+        android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,6 +68,7 @@
         android:layout_marginStart="-341dp"
         android:padding="20dp"
         android:text="lorem ipsum dolor sit amet lorem "
+        android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="normal|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,6 +79,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638" />
+        app:layout_constraintVertical_bias="0.637" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

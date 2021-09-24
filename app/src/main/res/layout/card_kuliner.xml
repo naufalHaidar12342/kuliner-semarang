@@ -60,6 +60,6 @@
             android:text="lorem ipsum dolor sit amet lorem "
             android:textSize="16sp"
             android:textStyle="normal|italic"
-            android:visibility="invisible" />
+            android:visibility="gone" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
