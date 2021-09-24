@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="14dp"
+    app:cardBackgroundColor="#B56464"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/masakanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imageMasakan"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textMasakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/imageMasakan"
+            android:layout_toRightOf="@id/imageMasakan"
+            android:text="Nama masakan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textMasakan"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imageMasakan"
+            android:text="Rp. 10.000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textHarga"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imageMasakan"
+            android:layout_toRightOf="@id/imageMasakan"
+            android:text="lorem ipsum dolor sit amet lorem "
+            android:textSize="16sp"
+            android:textStyle="normal|italic"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
