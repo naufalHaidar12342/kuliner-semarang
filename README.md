@@ -100,7 +100,7 @@ Berikut adalah sumber belajar yang saya gunakan.
 
 1. Membuat Aplikasi List Kuliner oleh Bapak Fahri Firdausillah, Dosen UDINUS
 
-   [![Studi Kasus Aplikasi Kuliner ](screenshots\hqdefault-recyclerview.jpg)](https://www.youtube.com/watch?v=zQpKmnNehb0&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=17 "Studi Kasus Aplikasi ")
+   [![Studi Kasus Aplikasi Kuliner ](screenshots/hqdefault-recyclerview.jpg)](https://www.youtube.com/watch?v=zQpKmnNehb0&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=17 "Studi Kasus Aplikasi ")
 
 2. RecyclerView OnClickListener to New Activity Android Studio | Beginner's Guide oleh Ben O'Brien
 
