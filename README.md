@@ -1,22 +1,105 @@
 # Kuliner Semarang
 
+![Lawang Sewu by Nur Arifah(dribble.com)!](https://cdn.dribbble.com/users/4866327/screenshots/11021513/media/51c90af5665aa8fd11f21021da714af8.png?compress=1&resize=1200x900)
+
+<div id="kuliner-semarang"/>
+
 Aplkasi sederhana yang menampilkan daftar kuliner
-di kota Semarang. 
+di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 
-
-## Daftar Isi
-
-- [Alat](#alat)
+- [Kuliner Semarang](#kuliner-semarang)
+- 📝 [Penjelasan Singkat](#short-desc)
+- 🧰 Tools
   - [Android Studio](#android-studio)
-  - Dependencies
+  - [Dependencies](#dependencies)
+- 🖼 [Tampilan](#tampilan)
+  - [Halaman Utama](#homepage)
+  - [Detail](#details)
+- [Sumber Belajar](#sources)
 
+<div id="short-desc"/>
 
+## 📝 Penjelasan Singkat
 
-## Alat <a name="alat"></a>
+Layout yang digunakan : `ConstraintLayout`, `LinearLayout`, `RelativeLayout`, `RecyclerView`, `CardView`
 
-Berikut adalah *tools* yang digunakan dalam membangun aplikasi ini.
+Untuk menambahkan dependency ini, cukup tambahkan di dalam file `build.gradle (Module:[nama projectnya])`. Selanjutnya, cari bagian :
 
-### Android Studio <a name="android-studio"></a>
+```gradle
+    dependencies {
 
-- Android Studio Arctic Fox 2020.3.1
+    }
+```
+
+lalu isi dengan _implementation_ dari tiap depedency.
+
+> File implementation `androidx.recyclerview:recyclerview:1.2.1` ini bisa ditemui di dalam bagian `Gradle Scripts` dari project.
+>
+> > Untuk mengubah tipe tampilan `Project` sidebar, klik kiri pada anak panah bawah di sebelah tipe tampilan saat ini, lalu pilih `Android`
+
+<div id="android-studio"/>
+
+### Android Studio
+
+Berikut adalah spesifikasi Android Studio yang saya
+gunakan.
+
+- [Android Studio Arctic Fox 2020.3.1](https://developer.android.com/studio)
 - Android Image API 30
+
+<div id="dependencies"/>
+
+### Dependencies
+
+- [CardView 1.0.0](https://developer.android.com/jetpack/androidx/releases/cardview?hl=en)
+
+```gradle
+    dependencies {
+        //dependency 1
+        //dependency 2
+        implementation 'androidx.cardview:cardview:1.0.0'
+
+    }
+```
+
+- [RecyclerView 1.2.1]()
+
+```gradle
+    dependencies {
+        implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    }
+```
+
+<div id="tampilan"></div>
+
+### 🖼 Tampilan
+
+Berikut tampilan aplikasi ketika dijalankan.
+
+#### Homepage
+
+![homepage app](screenshots/homepage.png)
+
+#### Detail
+
+![detail ](screenshots/detail.png)
+
+<div id="sources"></div>
+
+### Sumber Belajar
+
+Berikut adalah sumber belajar yang saya gunakan.
+
+> Silahkan coba klik salah satu gambar. Sumber berikut berupa video YouTube.
+
+1. Membuat Aplikasi List Kuliner oleh Bapak Fahri Firdausillah, Dosen UDINUS
+
+   [![Studi Kasus Aplikasi Kuliner ](screenshots\hqdefault-recyclerview.jpg)](https://www.youtube.com/watch?v=zQpKmnNehb0&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=17 "Studi Kasus Aplikasi ")
+
+2. RecyclerView OnClickListener to New Activity Android Studio | Beginner's Guide oleh Ben O'Brien
+
+   [![RecyclerView OnClickListener to New Activity Android Studio](screenshots/maxresdefault-recyclerview-onclicklistener.jpg)](https://www.youtube.com/watch?v=vBxNDtyE_Co&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=20 "RecyclerView OnClickListener to New Activity Android Studio")
+
+3. Recyclerview with Cardview in Android Studio Part 1: Display items oleh AndroidWorldClub
+
+   [![RecyclerView with CardView](screenshots/maxresdefault-recyclerview-with-cardview.jpg)](https://www.youtube.com/watch?v=oq_xGMN0mRE&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=19 "RecyclerView with CardView")
