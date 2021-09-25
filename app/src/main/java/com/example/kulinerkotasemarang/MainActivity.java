@@ -51,31 +51,34 @@ public class MainActivity extends AppCompatActivity {
         this.listMasakan=new ArrayList<>();
         //
         listMasakan.add(new Masakan(
-                "Sate Ayam",
-                "Sate ayam 20 tusuk dengan sambal kacang terpisah",
+                "Lunpia Kering",
+                "Lunpia goreng dengan isian tunas bambu (1 box/10 buah)",
                 "Rp. 15.000",
-                R.drawable.chicken_satay_bali
+                R.drawable.lumpia_kering
         ));
 
         listMasakan.add(new Masakan(
-                "Mie Goreng",
-                "Mie kuning dengan pedas sesuai selera (1-4 cabai)",
-                "Rp. 12.000",
-                R.drawable.fried_noodle
+                "Bandeng Juwana-Elrina",
+                "Ikan Bandeng dengan duri yang lunak. ",
+                "Rp. 170.000/kg",
+                R.drawable.bandeng_juwana_elrina
         ));
 
         listMasakan.add(new Masakan(
-                "Mie Rebus",
-                "Mie kuning rebus dengan kuah dipisah.",
-                "Rp. 12.000",
-                R.drawable.instant_noodle
+                "Wingko Babat",
+                "Kue yang terbuat dari kelapa muda, tepung beras, ketan dan gula. " +
+                        "Tersedia dalam berbagai rasa, seperti coklat, original (kelapa muda), " +
+                        "nangka, durian, dan sebagainya. (1 besek)",
+                "Rp. 70.000",
+                R.drawable.wingko_kelapa_muda
         ));
 
         listMasakan.add(new Masakan(
-                "Mie Kwetiau",
-                "Mie kuning rebus dengan kuah dipisah.",
-                "Rp. 12.000",
-                R.drawable.instant_noodle
+                "Roti Ganjel Rel",
+                "Roti berbentuk balok, berwarna coklat yang ditaburi biji wijen " +
+                        "dan diberi perasa kayu manis dan gula jawa.",
+                "Rp. 50.000",
+                R.drawable.roti_ganjel_rel
         ));
 
 

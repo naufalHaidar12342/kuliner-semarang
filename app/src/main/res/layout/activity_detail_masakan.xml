@@ -62,8 +62,8 @@
 
     <TextView
         android:id="@+id/deskripsiDetail"
-        android:layout_width="304dp"
-        android:layout_height="108dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="-341dp"
         android:padding="20dp"
