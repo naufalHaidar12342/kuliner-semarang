@@ -10,16 +10,18 @@ di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 - [Kuliner Semarang](#kuliner-semarang)
 - 📝 [Penjelasan Singkat](#short-desc)
 - 🧰 Tools
-  - [Android Studio](#android-studio)
-  - [Dependencies](#dependencies)
+  - ![android](screenshots/android_16x16.png) [Android Studio](#android-studio)
+  - ![book](screenshots/book_16x16.png) [Dependencies](#dependencies)
 - 🖼 [Tampilan](#tampilan)
-  - [Halaman Utama](#homepage)
-  - [Detail](#details)
+  - ![home](screenshots/home_16x16.png) [Halaman Utama](#homepage)
+  - 🔍 [Detail](#details)
 - [Sumber Belajar](#sources)
 
 <div id="short-desc"/>
 
 ## 📝 Penjelasan Singkat
+
+> Aplikasi ini masih menggunakan data yang dideklarasikan secara langsung, belum menggunakan interaksi dengan database.
 
 Layout yang digunakan : `ConstraintLayout`, `LinearLayout`, `RelativeLayout`, `RecyclerView`, `CardView`
 
@@ -39,7 +41,7 @@ lalu isi dengan _implementation_ dari tiap depedency.
 
 <div id="android-studio"/>
 
-### Android Studio
+### ![android](screenshots/android_32x32.png) Android Studio
 
 Berikut adalah spesifikasi Android Studio yang saya
 gunakan.
@@ -49,7 +51,7 @@ gunakan.
 
 <div id="dependencies"/>
 
-### Dependencies
+### ![book](screenshots/book_32x32.png) Dependencies
 
 - [CardView 1.0.0](https://developer.android.com/jetpack/androidx/releases/cardview?hl=en)
 
@@ -62,7 +64,7 @@ gunakan.
     }
 ```
 
-- [RecyclerView 1.2.1]()
+- [RecyclerView 1.2.1](https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=en)
 
 ```gradle
     dependencies {
@@ -76,13 +78,17 @@ gunakan.
 
 Berikut tampilan aplikasi ketika dijalankan.
 
-#### Homepage
+<div id="homepage"></div>
+
+#### ![home](screenshots/home_32x32.png) Homepage
 
 ![homepage app](screenshots/homepage.png)
 
-#### Detail
+<div id="details"></div>
 
-![detail ](screenshots/detail.png)
+#### 🔍 Detail
+
+![detail](screenshots/detail.png)
 
 <div id="sources"></div>
 
