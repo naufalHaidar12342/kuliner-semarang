@@ -2,6 +2,8 @@
 
 ![Lawang Sewu by Nur Arifah(dribble.com)!](https://cdn.dribbble.com/users/4866327/screenshots/11021513/media/51c90af5665aa8fd11f21021da714af8.png?compress=1&resize=1200x900)
 
+_"Lawang Sewu Building in Semarang, Flat Line Illustration"_ oleh [Nur Arifah](https://dribbble.com/nur_arifah)
+
 <div id="kuliner-semarang"/>
 
 Aplkasi sederhana yang menampilkan daftar kuliner
@@ -15,7 +17,7 @@ di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 - 🖼 [Tampilan](#tampilan)
   - ![home](screenshots/home_16x16.png) [Halaman Utama](#homepage)
   - 🔍 [Detail](#details)
-- [Sumber Belajar](#sources)
+- 📚 [Sumber Belajar](#sources)
 
 <div id="short-desc"/>
 
@@ -92,7 +94,7 @@ Berikut tampilan aplikasi ketika dijalankan.
 
 <div id="sources"></div>
 
-### Sumber Belajar
+### 📚 Sumber Belajar
 
 Berikut adalah sumber belajar yang saya gunakan.
 
