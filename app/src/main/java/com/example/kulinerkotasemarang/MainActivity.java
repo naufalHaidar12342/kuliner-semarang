@@ -11,24 +11,37 @@ import android.view.View;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    /*Pada file XML, komponen yang sudah ditambahkan,
+    * belum memiliki logic. Oleh karena itu, kita berikan
+    * logic di dalam file java yang berkaitan dengan activity-nya*/
     private RecyclerView recViewKuliner;
+
     //
     private ArrayList<Masakan> listMasakan;
 
-    //
+    //memanggil interface class RVMasakanListener
     private MasakanAdapter.RVMasakanListener listener;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //
+        //menghubungkan RecyclerView dengan id recyclerView pada XML
         recViewKuliner=findViewById(R.id.RecyclerViewMasakan);
 
-        //
+        //memanggil fungsi isi data untuk mengisi arrayList
         isiData();
+
+        //memanggil fungsi onclicklistener yang akan mengirim data
+        // melalui intent
         setOnClickListener();
+
+        //set adapter yang digunakan untuk recyclerView
+        // (akan mengirim arrayList dari mainActivity dan listener)
         recViewKuliner.setAdapter(new MasakanAdapter(listMasakan,listener));
+
+        //set tipe layout yang akan digunakan oleh recyclerView
         recViewKuliner.setLayoutManager(new LinearLayoutManager(this));
 
     }
