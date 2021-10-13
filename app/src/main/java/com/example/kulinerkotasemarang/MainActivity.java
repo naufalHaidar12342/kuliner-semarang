@@ -45,11 +45,12 @@ public class MainActivity extends AppCompatActivity {
         recViewKuliner.setLayoutManager(new LinearLayoutManager(this));
 
     }
-
+    // fungsi onclick (ketika viewholder/card di klik)
     private void setOnClickListener() {
         listener= new MasakanAdapter.RVMasakanListener() {
             @Override
             public void onClick(View views, int position) {
+                //mengirimkan data lewat intent
                 Intent intent = new Intent(getApplicationContext(), detail_masakan.class);
                 intent.putExtra("namaMasakan", listMasakan.get(position).getNamaMasakan());
                 intent.putExtra("deskripsi", listMasakan.get(position).getDescMasakan());

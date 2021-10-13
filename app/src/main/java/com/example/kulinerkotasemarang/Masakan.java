@@ -4,6 +4,7 @@ public class Masakan {
     private String namaMasakan,descMasakan,hargaMasakan;
     private int idPhoto;
 
+    //konstruktor untuk class Masakan
     public Masakan(String namaMasakan, String descMasakan, String hargaMasakan, int idPhoto) {
         this.namaMasakan = namaMasakan;
         this.descMasakan = descMasakan;

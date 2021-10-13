@@ -20,29 +20,32 @@ public class MasakanAdapter extends RecyclerView.Adapter<MasakanAdapter.ViewHold
 
     private final RVMasakanListener listener;
 
+    /*konstruktor class MasakanAdapter
+    * akan menerima arrayList dari MainActivity beserta listener*/
     public MasakanAdapter(ArrayList<Masakan> listMasakan, RVMasakanListener listener) {
         this.listMasakan = listMasakan;
         this.listener=listener;
     }
-
+    //class ViewHolder, dimana setiap card masakan
+    //akan menjadi view holder
     public class ViewHolderMasakan extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView txtMasakan, txtDeskripsi, txtHarga;
         public ImageView imgviewMasakan;
 
-        //
+        //membuat variabel bertipe RelativeLayout
+        // (untuk set gambar dan teks ke dalam card)
         public RelativeLayout cardDetail;
 
+        //konstruktor viewHolder
         public ViewHolderMasakan(@NonNull View itemView) {
             super(itemView);
 
-            //
+            //menyambungkan property di xml dengan variabel di java
             txtMasakan= itemView.findViewById(R.id.textMasakan);
             txtDeskripsi= itemView.findViewById(R.id.textDeskripsi);
             txtHarga= itemView.findViewById(R.id.textHarga);
             imgviewMasakan= itemView.findViewById(R.id.imageMasakan);
 
-            //
-//            this.cardDetail= (RelativeLayout) itemView.findViewById(R.id.masakanLayout);
 
             itemView.setOnClickListener(this);
         }
@@ -71,16 +74,6 @@ public class MasakanAdapter extends RecyclerView.Adapter<MasakanAdapter.ViewHold
         holder.txtHarga.setText(ambilMasakan.getHargaMasakan());
         holder.imgviewMasakan.setImageResource(ambilMasakan.getIdPhoto());
 
-        /*
-
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                //Toast.makeText(holder.itemView.getContext(),ambilMasakan.getDescMasakan(),Toast.LENGTH_LONG).show();
-            }
-        });
-*/
     }
 
     @Override

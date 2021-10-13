@@ -17,7 +17,7 @@ public class detail_masakan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_masakan);
 
-        //
+        //menyambungkan xml dengan variabel di java
         terimaMasakan= findViewById(R.id.masakanDetail);
         terimaDesc=findViewById(R.id.deskripsiDetail);
         terimaHarga=findViewById(R.id.hargaDetail);
@@ -26,6 +26,7 @@ public class detail_masakan extends AppCompatActivity {
         String masakan="",shortdesc="",harga="";
         int img=0 ;
 
+        //mengambil kiriman dari intent pada activity pertama
         Bundle extra=getIntent().getExtras();
         if (extra!=null){
             masakan=extra.getString("namaMasakan");
@@ -37,7 +38,8 @@ public class detail_masakan extends AppCompatActivity {
 
         }
 
-        //
+        //set text dan gambar di activity kedua
+        //(detail masakan)
         terimaMasakan.setText(masakan);
         terimaDesc.setText(shortdesc);
         terimaHarga.setText(harga);
