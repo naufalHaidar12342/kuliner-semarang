@@ -12,11 +12,9 @@ di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 - [Kuliner Semarang](#kuliner-semarang)
 - 📝 [Penjelasan Singkat](#short-desc)
 - 🧰 Tools
-  - ![android](screenshots/android_16x16.png) [Android Studio](#android-studio)
-  - ![book](screenshots/book_16x16.png) [Dependencies](#dependencies)
-- 🖼 [Tampilan](#tampilan)
-  - ![home](screenshots/home_16x16.png) [Halaman Utama](#homepage)
-  - 🔍 [Detail](#details)
+  - ![android](readme-assets/android_16x16.png) [Android Studio](#android-studio)
+  - ![book](readme-assets/book_16x16.png) [Dependencies](#dependencies)
+- 🖼 [Demonstrasi](#demo)
 - 📚 [Sumber Belajar](#sources)
 
 <div id="short-desc"/>
@@ -25,9 +23,19 @@ di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 
 > Aplikasi ini masih menggunakan data yang dideklarasikan secara langsung, belum menggunakan interaksi dengan database.
 
-Layout yang digunakan : `ConstraintLayout`, `LinearLayout`, `RelativeLayout`, `RecyclerView`, `CardView`
+Layout yang digunakan :
 
-Untuk menambahkan dependency ini, cukup tambahkan di dalam file `build.gradle (Module:[nama projectnya])`. Selanjutnya, cari bagian :
+- `ConstraintLayout`
+- `LinearLayout`
+- `RelativeLayout`
+- `RecyclerView`
+- `CardView`
+
+Tambahkan dependencies aplikasi ini ke dalam file berikut
+
+> `build.gradle (Module:[nama projectnya])`
+
+Selanjutnya, cari bagian :
 
 ```gradle
     dependencies {
@@ -43,7 +51,7 @@ lalu isi dengan _implementation_ dari tiap depedency.
 
 <div id="android-studio"/>
 
-### ![android](screenshots/android_32x32.png) Android Studio
+### ![android](readme-assets/android_32x32.png) Android Studio
 
 Berikut adalah spesifikasi Android Studio yang saya
 gunakan.
@@ -53,7 +61,7 @@ gunakan.
 
 <div id="dependencies"/>
 
-### ![book](screenshots/book_32x32.png) Dependencies
+### ![book](readme-assets/book_32x32.png) Dependencies
 
 - [CardView 1.0.0](https://developer.android.com/jetpack/androidx/releases/cardview?hl=en)
 
@@ -74,25 +82,13 @@ gunakan.
     }
 ```
 
-<div id="tampilan"></div>
+<div id="demo"></div>
 
-### 🖼 Tampilan
+### 🖼 Demonstrasi
 
-Berikut tampilan aplikasi ketika dijalankan.
+Berikut demo aplikasi ketika dijalankan.
 
-<div id="homepage"></div>
-
-#### ![home](screenshots/home_32x32.png) Homepage
-
-![homepage app](screenshots/homepage.png)
-
-<div id="details"></div>
-
-#### 🔍 Detail
-
-![detail](screenshots/detail.png)
-
-<div id="sources"></div>
+![Appsdemo](readme-assets/demo_kulinersemarang.gif)
 
 ### 📚 Sumber Belajar
 
@@ -100,14 +96,8 @@ Berikut adalah sumber belajar yang saya gunakan.
 
 > Silahkan coba klik salah satu gambar. Sumber berikut berupa video YouTube.
 
-1. Membuat Aplikasi List Kuliner oleh Bapak Fahri Firdausillah, Dosen UDINUS
-
-   [![Studi Kasus Aplikasi Kuliner ](screenshots/hqdefault-recyclerview.jpg)](https://www.youtube.com/watch?v=zQpKmnNehb0&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=17 "Studi Kasus Aplikasi ")
-
-2. RecyclerView OnClickListener to New Activity Android Studio | Beginner's Guide oleh Ben O'Brien
-
-   [![RecyclerView OnClickListener to New Activity Android Studio](screenshots/maxresdefault-recyclerview-onclicklistener.jpg)](https://www.youtube.com/watch?v=vBxNDtyE_Co&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=20 "RecyclerView OnClickListener to New Activity Android Studio")
-
-3. Recyclerview with Cardview in Android Studio Part 1: Display items oleh AndroidWorldClub
-
-   [![RecyclerView with CardView](screenshots/maxresdefault-recyclerview-with-cardview.jpg)](https://www.youtube.com/watch?v=oq_xGMN0mRE&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=19 "RecyclerView with CardView")
+| Judul                                                                        | Sumber                                                                                                                                                                                                                                                                                     | Pemilik            |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| Membuat Aplikasi List Kuliner                                                | [![Studi Kasus Aplikasi Kuliner ](readme-assets/hqdefault-recyclerview.jpg)](https://www.youtube.com/watch?v=zQpKmnNehb0&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=17 "Studi Kasus Aplikasi ")                                                                                         | Fahri Firdausillah |
+| RecyclerView OnClickListener to New Activity Android Studio Beginner's Guide | [![RecyclerView OnClickListener to New Activity Android Studio](readme-assets/maxresdefault-recyclerview-onclicklistener.jpg)](https://www.youtube.com/watch?v=vBxNDtyE_Co&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=20 "RecyclerView OnClickListener to New Activity Android Studio") | Ben O'Brien        |
+| Recyclerview with Cardview in Android Studio Part 1: Display items           | [![RecyclerView with CardView](readme-assets/maxresdefault-recyclerview-with-cardview.jpg)](https://www.youtube.com/watch?v=oq_xGMN0mRE&list=PLVslXNopr4TnQ4WSWY6_Jysg0e61RN00l&index=19 "RecyclerView with CardView")                                                                     | AndroidWorldClub   |
