@@ -9,6 +9,8 @@ _"Lawang Sewu Building in Semarang, Flat Line Illustration"_ oleh [Nur Arifah](h
 Aplkasi sederhana yang menampilkan daftar kuliner
 di kota Semarang. Dibuat dengan Android Studio dalam bahasa Java.
 
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
 - [Kuliner Semarang](#kuliner-semarang)
 - 📝 [Penjelasan Singkat](#short-desc)
 - 🧰 Tools
